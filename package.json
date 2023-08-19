@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "Just Another Text Editor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Week 19 Module Homework Challenge from the Northwestern University Full Stack Coding Bootcamp.",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
@@ -10,6 +10,9 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start"
   },
+  "keywords": [],
+  "author": "Jessie Galindo",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   },
